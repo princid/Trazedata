@@ -31,8 +31,14 @@ const TermsAndConditions = ({ navigation }) => {
       <KeyboardAvoidingView style={styles.container} behavior="height">
         <ScrollView style={{ height: windowHeight }}>
           <View style={{ width: "100%" }}>
-            <Text style={{ fontWeight: "bold", textAlign: "center" }}>
-              Terms Conditions
+            <Text
+              style={{
+                paddingVertical: 10,
+                fontWeight: "bold",
+                textAlign: "center",
+              }}
+            >
+              TERMS & CONDITIONS
             </Text>
             <Text>
               Trazedata Contact Tracing is an application that can perform the

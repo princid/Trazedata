@@ -173,11 +173,11 @@ const SignUpVaccination = ({ navigation, route }) => {
                                 selectedValue={firstDoseName}
                                 onValueChange={value => setFirstDoseName(value)}
                                 mode="dialog">
-                                <Picker.Item label="None" value="None" />
-                                <Picker.Item label="Moderna" value="Moderna" />
                                 <Picker.Item label="Pfizer-BioNTech" value="Pfizer-BioNTech" />
-                                <Picker.Item label="Oxford/AstraZeneca" value="Oxford/AstraZeneca" />
+                                <Picker.Item label="Covishield" value="Covishield" />
+                                <Picker.Item label="Covaxin" value="Covaxin" />
                                 <Picker.Item label="Others" value="Others" />
+                                <Picker.Item label="None" value="None" />
                             </Picker>
                         </View>
                         <View style={{ width: "100%", alignItems: "center", justifyContent: "center", flexDirection: "row" }}>
@@ -227,11 +227,11 @@ const SignUpVaccination = ({ navigation, route }) => {
                                 selectedValue={secondDoseName}
                                 onValueChange={value => setSecondDoseName(value)}
                                 mode="dialog">
-                                <Picker.Item label="None" value="None" />
-                                <Picker.Item label="Moderna" value="Moderna" />
                                 <Picker.Item label="Pfizer-BioNTech" value="Pfizer-BioNTech" />
-                                <Picker.Item label="Oxford/AstraZeneca" value="Oxford/AstraZeneca" />
+                                <Picker.Item label="Covishield" value="Covishield" />
+                                <Picker.Item label="Covaxin" value="Covaxin" />
                                 <Picker.Item label="Others" value="Others" />
+                                <Picker.Item label="None" value="None" />
                             </Picker>
                         </View>
 
@@ -283,11 +283,11 @@ const SignUpVaccination = ({ navigation, route }) => {
                                 selectedValue={boosterDoseName}
                                 onValueChange={value => setBoosterDoseName(value)}
                                 mode="dialog">
-                                <Picker.Item label="None" value="None" />
-                                <Picker.Item label="Moderna" value="Moderna" />
                                 <Picker.Item label="Pfizer-BioNTech" value="Pfizer-BioNTech" />
-                                <Picker.Item label="Oxford/AstraZeneca" value="Oxford/AstraZeneca" />
+                                <Picker.Item label="Covishield" value="Covishield" />
+                                <Picker.Item label="Covaxin" value="Covaxin" />
                                 <Picker.Item label="Others" value="Others" />
+                                <Picker.Item label="None" value="None" />
                             </Picker>
                         </View>
 
